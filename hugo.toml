@@ -1,0 +1,6 @@
+baseURL = 'https://carafizi.com/'
+languageCode = 'pt-br'
+title = 'Carafizi'
+
+[build]
+  writeStats = true
