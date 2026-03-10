@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="{{ "main.css" | relURL }}">
 </head>
 <body>
-  {{ block "main" . }}{{ end }}
+  <header class="site-header">
+    <a href="{{ "/" | relURL }}" class="site-name">Carafizi</a>
+    <nav>
+      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/about/" | relURL }}">About</a>
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
 </body>
 </html>
