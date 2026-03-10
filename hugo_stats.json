@@ -1,0 +1,34 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "h1",
+      "h2",
+      "head",
+      "header",
+      "html",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "script",
+      "strong",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "site-header",
+      "site-name"
+    ],
+    "ids": [
+      "about-me",
+      "certifications",
+      "education",
+      "experience",
+      "languages"
+    ]
+  }
+}
